@@ -31,6 +31,7 @@ public class Ejemplo022 {
        
         arreglo1[0][2] = 1000;
         
+        // Si es mayor o igual a 10 (par), el valor sera 0 
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 System.out.printf("Ingrese un numero para la fila[%d] "
@@ -45,7 +46,6 @@ public class Ejemplo022 {
             }
         }
         
-        // Si es mayor o igual a 10 (par) 0, 
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 System.out.printf("fila[%d] columna[%d] = %d\n", 
